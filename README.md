@@ -11,4 +11,4 @@ $T_new = (1-\alpha)T_old + (\alpha T_old)/k$ \
 $= T_old[(1-\alpha)+\alpha/k]$ 
 
 From this we compute the speed up as $S = T_{old}/T_{new}$ \
-$S =  \frac{1, (1-\alpha)+\alpha/k}$
+$S =  \frac{1}{(1-\alpha)+\alpha/k}$
