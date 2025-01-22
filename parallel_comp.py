@@ -39,7 +39,10 @@ if __name__ == "__main__":
     print("Speedups:", speedups)
 
     # Ideal speedup for comparison (linear speedup)
-    ideal_speedup = [p for p in processors]
+    ideal_speedup = []
+    for p in processors:
+        speedup = 1/(sequential_percentage/100 + (100-sequential_percentage)/(100*p))
+        ideal_speedup.append(speedup)
 
     # Plotting
     plt.figure(figsize=(10, 5))
