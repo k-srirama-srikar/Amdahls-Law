@@ -35,7 +35,7 @@ In short, the Amdahl's Law highlights the importance of minimizing the sequentia
 
 The `parallel_comp.py` program evaluates the performance of a parallel computation system using Python's `multiprocessing` module, focusing on how the number of processors affects execution time and speedup.
 
-The parallel task I've chosen here is the summation of squares form $0$ to $n-1$
+The parallel task I've chosen here is the summation of squares form $0$ to $n-1$ (with $n$ being $10^7$)
 
 The below is the image of the plot...
 
